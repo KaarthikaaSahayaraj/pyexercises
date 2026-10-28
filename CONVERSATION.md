@@ -182,3 +182,65 @@ print(result)  # What does this print?
 ```
 
 Question: What is the value of 10 // 3?
+
+---
+## 2026-10-28 20:36, in .
+
+**Me:** how to use sort()
+
+**Tutor:**
+
+Sorting a list in place.
+
+```python
+# TODO: import nothing
+
+def sort_a_list():
+    # TODO: create a list of 3-4 numbers or strings
+    unsorted = [3, 1, 4, 2]
+    unsorted.sort()
+    # TODO: what is the name of the method that sorts the list in place?
+    return unsorted
+```
+
+Which argument can you pass to `sort()` to sort the list in descending order?
+
+---
+## 2026-10-28 20:41, in .
+
+**Me:** how to use reverse
+
+**Tutor:**
+
+Reversing a sequence in Python.
+
+Pattern:
+```python
+# TODO: reverse the list below
+my_list = [10, 20, 30, 40]
+reversed_list = my_list[::-1]  # TODO: what does the slice [::-1] do?
+print(reversed_list)
+```
+
+Question: Which built-in function can you call on a list to reverse it in place?
+
+---
+## 2026-10-28 21:07, in .
+
+**Me:** how to use get function
+
+**Tutor:**
+
+Dictionary lookup with a default.
+
+```python
+# TODO: replace the dict and the key with your own
+data = {"spend": 1200, "revenue": 3600, "clicks": 450}
+metric = "cost"  # TODO: change to the key you want
+
+# Use get to fetch the value or a default if the key is missing
+value = data.get(metric, 0)  # TODO: decide what default to return
+print(value)
+```
+
+Which argument of `get` is the default value?
