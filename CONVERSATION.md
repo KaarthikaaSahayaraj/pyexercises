@@ -103,3 +103,82 @@ print(replace_strings(beta))   # expected: "A dog and a dog."
 ```
 
 Which two arguments does `str.replace()` need?
+
+---
+## 2026-10-28 14:16, in .
+
+**Me:** how to find the exponent of integers
+
+**Tutor:**
+
+Concept: Raising an integer to a power using the exponentiation operator.
+
+Pattern:
+```python
+# TODO: Replace base and exponent with your values
+base = 2
+exponent = 3
+result = base ** exponent
+print(result)  # Expected output: 8
+```
+
+Question: Which operator is used for exponentiation in Python?
+
+---
+## 2026-10-28 14:17, in .
+
+**Me:** how to get remainder of integers
+
+**Tutor:**
+
+Concept: The remainder of integer division is called the modulus.
+
+Pattern:
+```python
+# TODO: compute remainder of 17 divided by 5
+remainder = 17 % 5
+print(remainder)  # expected: 2
+```
+
+What is the operator that gives the remainder?
+
+---
+## 2026-10-28 14:25, in .
+
+**Me:** what does the operator // do
+
+**Tutor:**
+
+Integer division.
+
+It divides two numbers and returns the largest integer that is less than or equal to the result.
+
+```python
+# TODO: try these
+print(7 // 2)   # ?
+print(-7 // 2)  # ?
+```
+
+What is the value of `11 // 3`?
+
+---
+## 2026-10-28 14:51, in .
+
+**Me:** what is //
+
+**Tutor:**
+
+The // operator is the floor division operator in Python.
+
+It divides two numbers and returns the largest integer less than or equal to the result.
+
+Example:
+```python
+# TODO: try these lines one by one
+a = 7
+b = 2
+result = a // b
+print(result)  # What does this print?
+```
+
+Question: What is the value of 10 // 3?
