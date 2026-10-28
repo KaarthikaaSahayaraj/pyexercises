@@ -244,3 +244,23 @@ print(value)
 ```
 
 Which argument of `get` is the default value?
+
+---
+## 2026-10-28 21:18, in .
+
+**Me:** what is enumetrate
+
+**Tutor:**
+
+Enumerate is a built-in function that adds a counter to an iterable.
+
+```python
+# TODO: write a list of 3 toy items
+items = ["apple", "banana", "cherry"]
+
+# TODO: use enumerate to loop with index and value
+for index, value in enumerate(items):
+    print(f"Index {index} has value {value}")
+```
+
+What does the second argument of enumerate do?
