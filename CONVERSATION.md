@@ -264,3 +264,20 @@ for index, value in enumerate(items):
 ```
 
 What does the second argument of enumerate do?
+
+---
+## 2026-11-17 13:08, in .
+
+**Me:** what is return
+
+**Tutor:**
+
+The `return` statement sends a value back to the caller of a function.
+
+```python
+def add_two(x):
+    result = x + 2
+    return result  # TODO: replace result with the expression x + 2
+```
+
+What does `return` do with the value it receives?
