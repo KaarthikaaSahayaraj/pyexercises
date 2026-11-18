@@ -417,3 +417,48 @@ for word in words:
 ```
 
 What does the `for` keyword expect immediately after it?
+
+---
+## 2026-11-18 21:39, in .
+
+**Me:** what is sorted?
+
+**Tutor:**
+
+A built-in function that returns a new list containing all items from an iterable in ascending order.
+
+```python
+# TODO: replace the list with your own data
+numbers = [3, 1, 4, 1, 5, 9, 2]
+sorted_numbers = sorted(numbers)
+print(sorted_numbers)  # [1, 1, 2, 3, 4, 5, 9]
+
+# TODO: try with strings
+words = ["banana", "apple", "cherry"]
+sorted_words = sorted(words)
+print(sorted_words)  # ['apple', 'banana', 'cherry']
+```
+
+Which argument does `sorted` take?
+
+---
+## 2026-11-18 21:40, in .
+
+**Me:** what is try and except?
+
+**Tutor:**
+
+Exception handling in Python.
+
+```python
+# TODO: wrap the division in a try-except block
+def safe_divide(numerator, denominator):
+    try:
+        result = numerator / denominator
+        return result
+    except ZeroDivisionError:
+        return None
+    # TODO: what goes after "except" to catch division by zero?
+```
+
+What is the name of the built-in exception for division by zero?
